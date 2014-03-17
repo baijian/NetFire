@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2017E3A618D6F60100A8D89E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2017E3A518D6F60100A8D89E /* Foundation.framework */; };
+		2017E3A818D6F60100A8D89E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2017E3A718D6F60100A8D89E /* CoreGraphics.framework */; };
+		2017E3AA18D6F60100A8D89E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2017E3A918D6F60100A8D89E /* UIKit.framework */; };
+		2017E3B018D6F60100A8D89E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2017E3AE18D6F60100A8D89E /* InfoPlist.strings */; };
+		2017E3B218D6F60100A8D89E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2017E3B118D6F60100A8D89E /* main.m */; };
+		2017E3B618D6F60100A8D89E /* ShootAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2017E3B518D6F60100A8D89E /* ShootAppDelegate.m */; };
+		2017E3B818D6F60100A8D89E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2017E3B718D6F60100A8D89E /* Images.xcassets */; };
+		2017E3BF18D6F60200A8D89E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2017E3BE18D6F60200A8D89E /* XCTest.framework */; };
+		2017E3C018D6F60200A8D89E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2017E3A518D6F60100A8D89E /* Foundation.framework */; };
+		2017E3C118D6F60200A8D89E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2017E3A918D6F60100A8D89E /* UIKit.framework */; };
+		2017E3C918D6F60200A8D89E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2017E3C718D6F60200A8D89E /* InfoPlist.strings */; };
+		2017E3CB18D6F60200A8D89E /* NetFireTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2017E3CA18D6F60200A8D89E /* NetFireTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2017E3C218D6F60200A8D89E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2017E39A18D6F60100A8D89E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2017E3A118D6F60100A8D89E;
+			remoteInfo = NetFire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2017E3A218D6F60100A8D89E /* NetFire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetFire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2017E3A518D6F60100A8D89E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2017E3A718D6F60100A8D89E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2017E3A918D6F60100A8D89E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2017E3AD18D6F60100A8D89E /* NetFire-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NetFire-Info.plist"; sourceTree = "<group>"; };
+		2017E3AF18D6F60100A8D89E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2017E3B118D6F60100A8D89E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2017E3B318D6F60100A8D89E /* NetFire-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetFire-Prefix.pch"; sourceTree = "<group>"; };
+		2017E3B418D6F60100A8D89E /* ShootAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShootAppDelegate.h; sourceTree = "<group>"; };
+		2017E3B518D6F60100A8D89E /* ShootAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShootAppDelegate.m; sourceTree = "<group>"; };
+		2017E3B718D6F60100A8D89E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2017E3BD18D6F60200A8D89E /* NetFireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetFireTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2017E3BE18D6F60200A8D89E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2017E3C618D6F60200A8D89E /* NetFireTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NetFireTests-Info.plist"; sourceTree = "<group>"; };
+		2017E3C818D6F60200A8D89E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2017E3CA18D6F60200A8D89E /* NetFireTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetFireTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2017E39F18D6F60100A8D89E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2017E3A818D6F60100A8D89E /* CoreGraphics.framework in Frameworks */,
+				2017E3AA18D6F60100A8D89E /* UIKit.framework in Frameworks */,
+				2017E3A618D6F60100A8D89E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2017E3BA18D6F60200A8D89E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2017E3BF18D6F60200A8D89E /* XCTest.framework in Frameworks */,
+				2017E3C118D6F60200A8D89E /* UIKit.framework in Frameworks */,
+				2017E3C018D6F60200A8D89E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2017E39918D6F60100A8D89E = {
+			isa = PBXGroup;
+			children = (
+				2017E3AB18D6F60100A8D89E /* NetFire */,
+				2017E3C418D6F60200A8D89E /* NetFireTests */,
+				2017E3A418D6F60100A8D89E /* Frameworks */,
+				2017E3A318D6F60100A8D89E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2017E3A318D6F60100A8D89E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2017E3A218D6F60100A8D89E /* NetFire.app */,
+				2017E3BD18D6F60200A8D89E /* NetFireTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2017E3A418D6F60100A8D89E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2017E3A518D6F60100A8D89E /* Foundation.framework */,
+				2017E3A718D6F60100A8D89E /* CoreGraphics.framework */,
+				2017E3A918D6F60100A8D89E /* UIKit.framework */,
+				2017E3BE18D6F60200A8D89E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2017E3AB18D6F60100A8D89E /* NetFire */ = {
+			isa = PBXGroup;
+			children = (
+				2017E3B418D6F60100A8D89E /* ShootAppDelegate.h */,
+				2017E3B518D6F60100A8D89E /* ShootAppDelegate.m */,
+				2017E3B718D6F60100A8D89E /* Images.xcassets */,
+				2017E3AC18D6F60100A8D89E /* Supporting Files */,
+			);
+			path = NetFire;
+			sourceTree = "<group>";
+		};
+		2017E3AC18D6F60100A8D89E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2017E3AD18D6F60100A8D89E /* NetFire-Info.plist */,
+				2017E3AE18D6F60100A8D89E /* InfoPlist.strings */,
+				2017E3B118D6F60100A8D89E /* main.m */,
+				2017E3B318D6F60100A8D89E /* NetFire-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2017E3C418D6F60200A8D89E /* NetFireTests */ = {
+			isa = PBXGroup;
+			children = (
+				2017E3CA18D6F60200A8D89E /* NetFireTests.m */,
+				2017E3C518D6F60200A8D89E /* Supporting Files */,
+			);
+			path = NetFireTests;
+			sourceTree = "<group>";
+		};
+		2017E3C518D6F60200A8D89E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2017E3C618D6F60200A8D89E /* NetFireTests-Info.plist */,
+				2017E3C718D6F60200A8D89E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2017E3A118D6F60100A8D89E /* NetFire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2017E3CE18D6F60200A8D89E /* Build configuration list for PBXNativeTarget "NetFire" */;
+			buildPhases = (
+				2017E39E18D6F60100A8D89E /* Sources */,
+				2017E39F18D6F60100A8D89E /* Frameworks */,
+				2017E3A018D6F60100A8D89E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetFire;
+			productName = NetFire;
+			productReference = 2017E3A218D6F60100A8D89E /* NetFire.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2017E3BC18D6F60200A8D89E /* NetFireTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2017E3D118D6F60200A8D89E /* Build configuration list for PBXNativeTarget "NetFireTests" */;
+			buildPhases = (
+				2017E3B918D6F60200A8D89E /* Sources */,
+				2017E3BA18D6F60200A8D89E /* Frameworks */,
+				2017E3BB18D6F60200A8D89E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2017E3C318D6F60200A8D89E /* PBXTargetDependency */,
+			);
+			name = NetFireTests;
+			productName = NetFireTests;
+			productReference = 2017E3BD18D6F60200A8D89E /* NetFireTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2017E39A18D6F60100A8D89E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Shoot;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = baijian;
+				TargetAttributes = {
+					2017E3BC18D6F60200A8D89E = {
+						TestTargetID = 2017E3A118D6F60100A8D89E;
+					};
+				};
+			};
+			buildConfigurationList = 2017E39D18D6F60100A8D89E /* Build configuration list for PBXProject "NetFire" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2017E39918D6F60100A8D89E;
+			productRefGroup = 2017E3A318D6F60100A8D89E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2017E3A118D6F60100A8D89E /* NetFire */,
+				2017E3BC18D6F60200A8D89E /* NetFireTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2017E3A018D6F60100A8D89E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2017E3B018D6F60100A8D89E /* InfoPlist.strings in Resources */,
+				2017E3B818D6F60100A8D89E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2017E3BB18D6F60200A8D89E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2017E3C918D6F60200A8D89E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2017E39E18D6F60100A8D89E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2017E3B618D6F60100A8D89E /* ShootAppDelegate.m in Sources */,
+				2017E3B218D6F60100A8D89E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2017E3B918D6F60200A8D89E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2017E3CB18D6F60200A8D89E /* NetFireTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2017E3C318D6F60200A8D89E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2017E3A118D6F60100A8D89E /* NetFire */;
+			targetProxy = 2017E3C218D6F60200A8D89E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2017E3AE18D6F60100A8D89E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2017E3AF18D6F60100A8D89E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2017E3C718D6F60200A8D89E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2017E3C818D6F60200A8D89E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2017E3CC18D6F60200A8D89E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2017E3CD18D6F60200A8D89E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2017E3CF18D6F60200A8D89E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetFire/NetFire-Prefix.pch";
+				INFOPLIST_FILE = "NetFire/NetFire-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2017E3D018D6F60200A8D89E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetFire/NetFire-Prefix.pch";
+				INFOPLIST_FILE = "NetFire/NetFire-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2017E3D218D6F60200A8D89E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NetFire.app/NetFire";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetFire/NetFire-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NetFireTests/NetFireTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2017E3D318D6F60200A8D89E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NetFire.app/NetFire";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetFire/NetFire-Prefix.pch";
+				INFOPLIST_FILE = "NetFireTests/NetFireTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2017E39D18D6F60100A8D89E /* Build configuration list for PBXProject "NetFire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2017E3CC18D6F60200A8D89E /* Debug */,
+				2017E3CD18D6F60200A8D89E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2017E3CE18D6F60200A8D89E /* Build configuration list for PBXNativeTarget "NetFire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2017E3CF18D6F60200A8D89E /* Debug */,
+				2017E3D018D6F60200A8D89E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2017E3D118D6F60200A8D89E /* Build configuration list for PBXNativeTarget "NetFireTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2017E3D218D6F60200A8D89E /* Debug */,
+				2017E3D318D6F60200A8D89E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2017E39A18D6F60100A8D89E /* Project object */;
+}
