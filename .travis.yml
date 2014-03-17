@@ -1,0 +1,6 @@
+language: objective-c
+before_install:
+  - gem install xcpretty
+  - gem install cocoapods
+  - pod install
+script: xcodebuild -workspace NetFire.xcworkspace -scheme NetFire -sdk iphonesimulator7.0 test | xcpretty -c
